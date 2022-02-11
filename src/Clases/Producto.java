@@ -17,8 +17,10 @@ public class Producto {
 	 * @param numero2 Segundo número real del producto.
 	 * @return Multiplicación de ambos números.
 	 */
-	public static float multiplicacion(float numero1, float numero2) {
-		return 0;//Pongo 0 para que no de error
+	public static double multiplicacion(double numero1, double numero2) {
+		
+		double resultado = numero1 * numero2;
+		return resultado;
 	}
 	
 	/**
@@ -30,7 +32,9 @@ public class Producto {
 	 * @return Multiplicación de ambos números.
 	 */
 	public static int multiplicacion(int numero1, int numero2) {
-		return 0;//Pongo 0 para que no de error
+		
+		int resultado = numero1 * numero2;
+		return resultado;
 	}
 	
 	/**
@@ -42,8 +46,10 @@ public class Producto {
 	 * @param numero3 Tercer número real del producto.
 	 * @return Multiplicación de los tres números.
 	 */
-	public static float multiplicacion(float numero1, float numero2, float numero3) {
-		return 0;//Pongo 0 para que no de error
+	public static double multiplicacion(double numero1, double numero2, double numero3) {
+		
+		double resultado = numero1 * numero2 * numero3;
+		return resultado;
 	}
 	
 	/**
@@ -56,11 +62,14 @@ public class Producto {
 	 * @throws NumberIsTooLargeException El resultado desborda el tamaño máximo de un entero.
 	 */
 	public static int potencia(int base, int exponente) {
+		
+		int resultado = (int) Math.pow(base, exponente);
+		return resultado;
+				
 		/*Tendríamos que controlar la excepción de si el 
 		 resultado es demasiado grande ya que, si no,
 		 el resultado sería incorrecto*/
 		
-		return 0;//Pongo 0 para que no de error
 	}
 
 }
