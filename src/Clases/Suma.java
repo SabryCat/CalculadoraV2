@@ -1,5 +1,17 @@
 package Clases;
 
+/**
+ *  
+ * El <b>objetivo</b> de esta clase es proporcionar un resultado.
+ * Tendra diferentes metodos para realizar operaciones
+ * tales como <b>suma</b> de numeros enteros, numeros reales y
+ * suma con valor acumulado
+ * 
+ * @author SABRINA CACERES
+ * @version 1.0
+ * 
+ **/
+
 public class Suma {
 
 	   
