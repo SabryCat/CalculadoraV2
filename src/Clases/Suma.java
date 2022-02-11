@@ -103,13 +103,13 @@ public class Suma {
 	 * @throws Excepcion cuando asigna un cero al primer parametro
 	 */
 	   
-	 public int resultado() { //METODO 1
+	 public int resultado() { //Metodo 1
 	   int resul=this.getN1()+this.getN2();
 	   acumulador+=resul;
 	   return resul;	  
      }
 	  
-	 public double dosReales() { //METODO 2
+	 public double dosReales() { //Metodo 2
 	   double resul =this.getN3()+this.getN4();
 	   acumula+=resul;
 	   return resul; 
