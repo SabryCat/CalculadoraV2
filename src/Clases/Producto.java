@@ -18,7 +18,6 @@ public class Producto {
 	 * @return Multiplicación de ambos números.
 	 */
 	public static double multiplicacion(double numero1, double numero2) {
-		
 		double resultado = numero1 * numero2;
 		return resultado;
 	}
@@ -32,7 +31,6 @@ public class Producto {
 	 * @return Multiplicación de ambos números.
 	 */
 	public static int multiplicacion(int numero1, int numero2) {
-		
 		int resultado = numero1 * numero2;
 		return resultado;
 	}
@@ -47,7 +45,6 @@ public class Producto {
 	 * @return Multiplicación de los tres números.
 	 */
 	public static double multiplicacion(double numero1, double numero2, double numero3) {
-		
 		double resultado = numero1 * numero2 * numero3;
 		return resultado;
 	}
@@ -59,16 +56,11 @@ public class Producto {
 	 * @param base La base de la potencia.
 	 * @param exponente El exponente de la potencia.
 	 * @return Resultado de la potencia.
-	 * @throws NumberIsTooLargeException El resultado desborda el tamaño máximo de un entero.
 	 */
 	public static int potencia(int base, int exponente) {
-		
 		int resultado = (int) Math.pow(base, exponente);
 		return resultado;
 				
-		/*Tendríamos que controlar la excepción de si el 
-		 resultado es demasiado grande ya que, si no,
-		 el resultado sería incorrecto*/
 		
 	}
 

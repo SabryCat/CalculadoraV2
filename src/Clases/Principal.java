@@ -5,6 +5,9 @@ public class Principal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Hola Grupo V2");
+		
+		int resultado = Producto.potencia(2, 3);
+		System.out.println(resultado);
 	}
 
 }
