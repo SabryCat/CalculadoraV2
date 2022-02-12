@@ -1,4 +1,1 @@
-INDEX VERSION 1.131+D:\GithubRemoto\.metadata\.plugins\org.eclipse.jdt.core
-1560270802.index
-1865797976.index
-994639428.index
+INDEX VERSION 1.131+C:\Users\sabrycat\Desktop\Actividad2\CalculadoraV2\.metadata\.plugins\org.eclipse.jdt.core
