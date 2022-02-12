@@ -22,8 +22,8 @@ public class Resta {
 	
 	 // Numeros enteros
 	
-     private int n1;
-     private int n2;
+         private int n1;
+         private int n2;
 	 public static int acumulador;
 	   
 	 // Numeros reales
@@ -37,7 +37,7 @@ public class Resta {
  	 public  Resta() {
 	   this.n1=0;
 	   this.n2=0;
-       this.n3=0;
+           this.n3=0;
 	   this.n4=0;
 	   this.n5=0;
 		   
