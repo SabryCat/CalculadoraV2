@@ -14,9 +14,8 @@ package Clases;
 
 public class Suma {
 
-	   
-	/**
-	 * <strong>Atributos de la clase </strong>
+    /**
+     * <strong>Atributos de la clase </strong>
      * Valores enteros, reales y acumulados
      */
 	
@@ -30,7 +29,7 @@ public class Suma {
 	   
 	 private double n3;
 	 private double n4;
-     private double n5;
+         private double n5;
 	 public static double acumula;
 	   
 	   // Zona de constructores
