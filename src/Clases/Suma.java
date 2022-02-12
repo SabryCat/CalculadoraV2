@@ -100,7 +100,7 @@ public class Suma {
 	 * @param RESUL Valor numerico de la operacion
 	 * @param Acumulador valor numerico de suma de acumulados    
 	 * @return Devuelve el resultado de la operacion
-	 * @throws Excepcion cuando asigna un cero al primer parametro
+	 * 
 	 */
 	   
 	 public int resultado() { //Metodo 1
@@ -126,7 +126,7 @@ public class Suma {
 	 * @param result valor numerico de la operacion
 	 * @param acumulador valor numerico de suma acumulados
 	 * @return Devuelve el resultado de la operacion
-	 * @throws excepcion cuando asigna un cero a primer parametro
+	 * 
 	 */
 	   
 	 public double tresReales() {
@@ -151,7 +151,7 @@ public class Suma {
 	  * Este metodo acumula el valor de las sumas
 	  * devuelve el resultado total
 	  * 
-	  * @return DEVUELVE EL RESULTADO ACUMULADO
+	  * @return Devuelve el resultado acumulado
 	  */
 	 public double cuentaAcumula() {
 	   return acumula;
