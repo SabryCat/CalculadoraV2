@@ -22,10 +22,10 @@ public class Resta {
 	
 	 // Numeros enteros
 	
-         private int n1;
-         private int n2;
+     private int n1;
+     private int n2;
 	 public static int acumulador;
-	   
+	  
 	 // Numeros reales
 	
 	 private double n3;
@@ -34,10 +34,11 @@ public class Resta {
 	 public static double acumula;
 	   
 	 // Zona de constructores
+	 
  	 public  Resta() {
 	   this.n1=0;
 	   this.n2=0;
-           this.n3=0;
+       this.n3=0;
 	   this.n4=0;
 	   this.n5=0;
 		   
@@ -98,7 +99,7 @@ public class Resta {
 	 * @param Resul valor numerico de la operacion
 	 * @param Acumulador valor numerico de resta acumulados
 	 * @return devuelve el resultado de la operacion
-	 * @throws excepcion cuando asigna un cero al primer parametro
+	 * 
      */  
 	 public int resultado() { //Metodo 1
 	   int resul=this.getN1()-this.getN2();
@@ -121,7 +122,7 @@ public class Resta {
 	 * @param result valor numerico de la operacion
 	 * @param acumulador valor numerico de resta acumulados
 	 * @return devuelve el resultado de la operacion
-	 * @throws excepcion cuando asigna un cero al primer parametro,
+	 * 
 	 */
 	 
 	 public double tresReales() {
