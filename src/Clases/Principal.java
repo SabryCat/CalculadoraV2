@@ -4,10 +4,6 @@ public class Principal {
 
 	public static void main(String[] args) {
 
-
-		System.out.println("Hola Grupo V2");
-		
-		
 		System.out.println(Producto.potencia(2, 3));//Prueba del método potencia de la clase Producto de Jesús
 		
 		//Parte de Sabry
@@ -29,6 +25,19 @@ public class Principal {
 		System.out.println("El resultado Resta dosA es:"+ totalA);
 		System.out.println("Total de enteros Resta es : " + dos.cuentaAcumulador());
 		//Finaliza la parte de Sabry
+		
+		// Parte de Nabil Makrane
+		Cociente obj = new Cociente();
+		double resultadoReal = obj.DivisionReal(10, 2);
+		int resultadoEntero = obj.DivisionEntero(10, 2);
+		int resultadoInverso = obj.InversoReal(-10);
+		double resultadoRaiz = obj.Raiz(25);
+				
+		System.out.println("El resultado  cociente real es:"+ resultadoReal);
+		System.out.println("El resultado cociente entero es:"+ resultadoEntero);
+		System.out.println("El resultado cociente inverso es:"+ resultadoInverso);
+		System.out.println("El resultado cociente raiz es:"+ resultadoRaiz);
+		// Fin parte de Nabil Makrane
 		
 	}		
 	
