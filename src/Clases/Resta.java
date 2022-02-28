@@ -31,6 +31,8 @@ public class Resta {
 	 private double n3;
 	 private double n4;
 	 private double n5;
+	 private double n6;
+	 private double n7;
 	 public static double acumula;
 	   
 	 // Zona de constructores
@@ -41,13 +43,19 @@ public class Resta {
        this.n3=0;
 	   this.n4=0;
 	   this.n5=0;
+	   this.n6=0;
+	   this.n7=0;
 		   
 	 }	
 	   
 	 public Resta(int n1, int n2) {	   
 	   this.n1 = n1;
 	   this.n2 = n2;
-	 }    
+	 } 
+	 public Resta(double n6, double n7) {	   
+		   this.n6 = n6;
+		   this.n7 = n7;
+		 } 
 	 public Resta(double n3, double n4,double n5) {	   
 	   this.n3 = n3;
 	   this.n4 = n4;
@@ -87,7 +95,23 @@ public class Resta {
 	   this.n5 = n5;
 	 }
 
-    /**
+    public double getN6() {
+		return n6;
+	}
+
+	public void setN6(double n6) {
+		this.n6 = n6;
+	}
+
+	public double getN7() {
+		return n7;
+	}
+
+	public void setN7(double n7) {
+		this.n7 = n7;
+	}
+
+	/**
 	 * 
      * Estod metodos (1 y 2) resta dos valores enteros o reales
 	 * asignando el resultado a una variable (resul)

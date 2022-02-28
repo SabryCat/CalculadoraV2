@@ -29,7 +29,9 @@ public class Suma {
 	   
 	 private double n3;
 	 private double n4;
-         private double n5;
+     private double n5;
+     private double n6;
+     private double n7;
 	 public static double acumula;
 	   
 	   // Zona de constructores
@@ -40,13 +42,19 @@ public class Suma {
 	   this.n3=0;
 	   this.n4=0;
 	   this.n5=0;
-		   
+	   this.n6=0;  
+	   this.n7=0;
 	 }	
-	 
+
 	 public Suma(int n1, int n2) {	   
 	   this.n1 = n1;
 	   this.n2 = n2;
-	 }   
+	 } 
+	 public Suma(double n6, double n7) {	   
+		   this.n6 = n6;
+		   this.n7 = n7;
+		   
+		 }
 	 public Suma(double n3, double n4,double n5) {	   
 	   this.n3 = n3;
 	   this.n4 = n4;
@@ -87,6 +95,22 @@ public class Suma {
 	   this.n5 = n5;
 	 }
 
+	public double getN6() {
+		return n6;
+	}
+
+	public void setN6(double n6) {
+		this.n6 = n6;
+	}
+
+	public double getN7() {
+		return n7;
+	}
+
+	public void setN7(double n7) {
+		this.n7 = n7;
+	}
+
 	/**
 	 * Estos metodos (1 y 2) suman dos valores enteros o reales
 	 * asignando el resultado a una variable (result)
@@ -102,19 +126,17 @@ public class Suma {
 	 * 
 	 */
 	   
-	 public int resultado() { //Metodo 1
+	 public  int resultado() { //Metodo 1
 	   int resul=this.getN1()+this.getN2();
 	   acumulador+=resul;
 	   return resul;	  
      }
 	  
 	 public double dosReales() { //Metodo 2
-	   double resul =this.getN3()+this.getN4();
+	   double resul =this.getN6()+this.getN7();
 	   acumula+=resul;
 	   return resul; 
 	 } 
-	   
-	   
 	/** 
 	 * Este metodo suma tres valores reales
 	 * Asignando el resultado a una variable (result)
@@ -127,13 +149,11 @@ public class Suma {
 	 * @return Devuelve el resultado de la operacion
 	 * 
 	 */
-	   
 	 public double tresReales() {
 	   double resul =this.getN3()+this.getN4()+this.getN5();
 	   acumula+=resul;
 	   return resul;
 	 }
-	   
 	 /**
 	  * Este metodo acumula el valor de las sumas 
 	  * devuelve el resultado total
@@ -156,5 +176,4 @@ public class Suma {
 	   return acumula;
      }
 
-	
 }

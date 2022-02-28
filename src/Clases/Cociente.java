@@ -22,7 +22,7 @@ public class Cociente {
 @param numero2 divisor.
 @return devuelve la división de los dos numeros reales.
 */
-	 	double DivisionReal (double n1, double n2) {
+	public double DivisionReal (double n1, double n2) {
 	 		return n1 / n2;
 	 	}
 	 	
@@ -34,7 +34,7 @@ public class Cociente {
 *@return devuelve la división de los dos numeros enteros.
 */	
 	 	
-	 	int DivisionEntero (int n1, int n2) {
+	 	public int DivisionEntero (int n1, int n2) {
 			return n1 / n2;
 		}
 	 	
@@ -43,37 +43,27 @@ public class Cociente {
 *El metodo InversoReal realizará el inverso de un numero real.
 */ 	
 	 	
-		int InversoReal (int n1) {
-			if (n1 > 0)
-				return n1 *-1;
-			else
-				return -n1;
-		}
+	    public int InversoReal(int numero){
+	        int cifra, inverso = 0;
+	        while(numero!=0){
+	            cifra = numero%10;
+	            inverso = (inverso * 10) + cifra;
+	            numero/=10;
+	        }
+	        return inverso;
+	    }
 		
 /**
 *<h1>Raiz</h1>
-*El mnetodo Raiz realizará la raiz cuadrada de un numero.
+*El metodo Raiz realizará la raiz cuadrada de un numero.
 *@param n1 Es el parámetro que se le pasa al metodo para hallar la raíz cuadrada.
 *@return Devuelve la raíz cuadrada del parametro (numero).
 */
 		
-		double Raiz (int n1) {
+	 	public	double Raiz (int n1) {
 			return Math.sqrt(n1); 
 		}
-	 	
-	public static void main(String[] args) {
-		
-		Cociente obj = new Cociente();
-		double resultadoReal = obj.DivisionReal(10, 2);
-		int resultadoEntero = obj.DivisionEntero(10, 2);
-		int resultadoInverso = obj.InversoReal(-10);
-		double resultadoRaiz = obj.Raiz(25);
-		
-		System.out.println(resultadoReal);
-		System.out.println(resultadoEntero);
-		System.out.println(resultadoInverso);
-		System.out.println(resultadoRaiz);
-	}
+
 }
 
 	/**
