@@ -132,7 +132,7 @@ public class Resta {
 				
 	 }
 	 public double dosReales() { //Metodo 2
-	   double resul =this.getN3()-this.getN4();
+	   double resul =this.getN6()-this.getN7();
 	   acumula+=resul;
 	   return resul;
 	 } 
